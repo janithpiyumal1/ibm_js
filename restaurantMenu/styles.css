@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #34495e;
+    margin-bottom: 10px;
+
+  }
+  
+  div {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 80%;
+  }
+  
+  #breakfastMenuItems, #maincourseMenuItems, #dessertMenuItems {
+    font-size: 1.1em;
+    color: #555;
+    text-align: left;
+  }
+  
+  #breakfastTotalItems, #maincourseTotalItems, #dessertTotalItems {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #27ae60;
+
+  }
+  
+  hr {
+    border: 1px solid #ddd;
+    width: 60%;
+    margin: 40px auto;
+  }
+  
+  button {
+    margin: 15px 10px;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
